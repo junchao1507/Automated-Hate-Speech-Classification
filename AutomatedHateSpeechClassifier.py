@@ -76,7 +76,7 @@ def classifier_evaluation(y_pred, y_test):
     st.text('Model Report:\n ' + classification_report(y_pred, y_test))
     
     
-df = pd.read_csv('C://Users/Admin/Desktop/KDDM_DST_Assignment/labeled_data.csv')
+df = pd.read_csv('C://Users/Admin/Desktop/GitHub/KDDM-DST-Assignment/labeled_data.csv')
 
 # Data Cleaning
 del df['Unnamed: 0']
